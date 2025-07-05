@@ -1,1 +1,0 @@
-https://github.com/positivell/slozhno-sosredotochitsya-fd
