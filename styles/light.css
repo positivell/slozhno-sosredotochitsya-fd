@@ -1,21 +1,21 @@
 :root.theme-light {
   --background: url("../images/cover-image-light.png");
-  --accent-color:rgba(255, 141, 203, 1);
-  --background-color:rgba(255, 241, 247, 1);
-  --title-color:rgba(241, 178, 206, 1);
-  --text-color:rgba(53, 52, 48, 1);
+  --accent-color: rgba(255, 141, 203, 1);
+  --background-color: rgba(255, 241, 247, 1);
+  --title-color: rgba(241, 178, 206, 1);
+  --text-color: rgba(53, 52, 48, 1);
 }
 
 .theme-light .lampochka {
-  display:none;
+  display: none;
 }
 
 .theme-light .title-background {
-  color:rgba(53, 52, 48, 1);
+  color: rgba(53, 52, 48, 1);
 }
 
 .theme-light .main__section__title {
-  color:rgba(53, 52, 48, 1);
+  color: rgba(53, 52, 48, 1);
 }
 
 .theme-light .decorated-zone::before {
@@ -33,7 +33,7 @@
 }
 
 .theme-light .header__theme-menu-button:hover {
-  outline: 1px solid #32312D66;
+  outline: 1px solid #32312d66;
 }
 
 .theme-light .header__theme-menu-button:focus-visible {
@@ -44,26 +44,25 @@
   outline: 1px solid var(--text-color);
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --background: url("../images/cover-image-light.png");
-    --accent-color:rgba(255, 141, 203, 1);
-    --background-color:rgba(255, 241, 247, 1);
-    --title-color:rgba(241, 178, 206, 1);
-    --text-color:rgba(53, 52, 48, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+    --background-color: rgba(255, 241, 247, 1);
+    --title-color: rgba(241, 178, 206, 1);
+    --text-color: rgba(53, 52, 48, 1);
   }
-  
-   .lampochka {
-    display:none;
+
+  .lampochka {
+    display: none;
   }
-  
-   .title-background {
-    color:rgba(53, 52, 48, 1);
+
+  .title-background {
+    color: rgba(53, 52, 48, 1);
   }
-  
+
   .main__section__title {
-    color:rgba(53, 52, 48, 1);
+    color: rgba(53, 52, 48, 1);
   }
 
   .decorated-zone::before {
@@ -81,7 +80,7 @@
   }
 
   .header__theme-menu-button:hover {
-    outline: 1px solid #32312D66;
+    outline: 1px solid #32312d66;
   }
 
   .header__theme-menu-button:focus-visible {
@@ -91,5 +90,4 @@
   .header__theme-menu-button_active {
     outline: 1px solid var(--text-color);
   }
-
 }

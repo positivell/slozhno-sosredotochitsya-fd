@@ -1,21 +1,21 @@
 :root.theme-dark {
   --background: url("../images/cover-image-dark.png");
   --accent-color: rgba(255, 0, 112, 1);
-  --background-color:rgba(0, 0, 40, 1);
-  --title-color:rgba(219, 0, 255, 1);
-  --text-color:rgba(241, 178, 206, 1);
+  --background-color: rgba(0, 0, 40, 1);
+  --title-color: rgba(219, 0, 255, 1);
+  --text-color: rgba(241, 178, 206, 1);
 }
 
 .theme-dark .lampochka {
-  display:block;
+  display: block;
 }
 
 .theme-dark .title-background {
-  color:rgba(0, 0, 40, 1);
+  color: rgba(0, 0, 40, 1);
 }
 
 .theme-dark .main__section__title {
-  color:rgba(255, 0, 112, 1);
+  color: rgba(255, 0, 112, 1);
 }
 
 .theme-dark .decorated-zone::before {
@@ -33,7 +33,7 @@
 }
 
 .theme-dark .header__theme-menu-button:hover {
-  outline: 1px solid #FF007066;
+  outline: 1px solid #ff007066;
 }
 
 .theme-dark .header__theme-menu-button:focus-visible {
