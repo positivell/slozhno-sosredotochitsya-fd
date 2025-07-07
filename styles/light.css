@@ -2,46 +2,12 @@
   --background: url("../images/cover-image-light.png");
   --accent-color: rgba(255, 141, 203, 1);
   --background-color: rgba(255, 241, 247, 1);
-  --title-color: rgba(241, 178, 206, 1);
+  --title-color: rgba(255, 194, 230, 1);
   --text-color: rgba(53, 52, 48, 1);
 }
 
-.theme-light .lampochka {
+.theme-light .decoration-lamp {
   display: none;
-}
-
-.theme-light .title-background {
-  color: rgba(53, 52, 48, 1);
-}
-
-.theme-light .main__section__title {
-  color: rgba(53, 52, 48, 1);
-}
-
-.theme-light .decorated-zone::before {
-  border-top: 1px solid var(--text-color);
-  border-right: 1px solid var(--text-color);
-}
-
-.theme-light .decorated-zone::after {
-  border-left: 1px solid var(--text-color);
-  border-bottom: 1px solid var(--text-color);
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--text-color);
-}
-
-.theme-light .header__theme-menu-button:hover {
-  outline: 1px solid #32312d66;
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--text-color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  outline: 1px solid var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -53,41 +19,7 @@
     --text-color: rgba(53, 52, 48, 1);
   }
 
-  .lampochka {
+  .decoration-lamp {
     display: none;
-  }
-
-  .title-background {
-    color: rgba(53, 52, 48, 1);
-  }
-
-  .main__section__title {
-    color: rgba(53, 52, 48, 1);
-  }
-
-  .decorated-zone::before {
-    border-top: 1px solid var(--text-color);
-    border-right: 1px solid var(--text-color);
-  }
-
-  .decorated-zone::after {
-    border-left: 1px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color);
-  }
-
-  .header__theme-menu-button {
-    color: var(--text-color);
-  }
-
-  .header__theme-menu-button:hover {
-    outline: 1px solid #32312d66;
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--text-color);
-  }
-
-  .header__theme-menu-button_active {
-    outline: 1px solid var(--text-color);
   }
 }
