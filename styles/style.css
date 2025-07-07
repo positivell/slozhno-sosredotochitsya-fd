@@ -421,10 +421,6 @@
     margin-inline: 0;
   }
 
-  .main__section-horizontal .main__section__item {
-    grid-column: 1 / 5;
-  }
-
   .main__section__pictures {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -491,7 +487,7 @@
   }
   .main__section-horizontal .main__section__title {
     grid-column: 1 / 4;
-    width: 100%;
+    width: 33%;
     margin-bottom: 0px;
   }
   .main__section-horizontal .main__section__item {
