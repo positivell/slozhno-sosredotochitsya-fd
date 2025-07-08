@@ -4,6 +4,10 @@
   --background-color: rgba(255, 241, 247, 1);
   --title-color: rgba(255, 194, 230, 1);
   --text-color: rgba(53, 52, 48, 1);
+  --title-background-color: rgba(255, 141, 203, 1);
+  --title-background-text:rgba(53, 52, 48, 1);
+  --main-color:rgba(53, 52, 48, 1);
+  --footer-title-shadow:rgba(255, 0, 112, 1);
 }
 
 .theme-light .decoration-lamp {
@@ -15,8 +19,12 @@
     --background: url("../images/cover-image-light.png");
     --accent-color: rgba(255, 141, 203, 1);
     --background-color: rgba(255, 241, 247, 1);
-    --title-color: rgba(241, 178, 206, 1);
+    --title-color: rgba(255, 194, 230, 1);
     --text-color: rgba(53, 52, 48, 1);
+    --title-background-color: rgba(255, 141, 203, 1);
+    --title-background-text:rgba(53, 52, 48, 1);
+    --main-color:rgba(53, 52, 48, 1);
+    --footer-title-shadow:rgba(255, 0, 112, 1);
   }
 
   .decoration-lamp {
